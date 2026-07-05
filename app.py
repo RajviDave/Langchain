@@ -13,7 +13,6 @@ OPEN_AI_APIKEY=os.getenv("OPEN_AI_APIKEY")
 LANGCHAIN_API_KEY=os.getenv("LANGCHAIN_APIKEY")
 LANGCHAIN_TRACING_V2="true"
 
-
 #prompt template
 prompt=ChatPromptTemplate(
     [
